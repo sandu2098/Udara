@@ -1,0 +1,74 @@
+
+<html>
+<head>
+    <title>Waste management system</title>
+    <style>
+        body{
+            background-image: url(Img\ 1.jpg);
+            background-repeat: no-repeat;
+            background-size: 45%;
+            background-attachment: fixed;
+            background-position: right center;
+            background-color: peachpuff;
+        }
+        .nav_bar{
+            background-color: black; font-family:Calibri; width: 100%; height: 84.5px; color: bisque; position: fixed; 
+            top: 0; right: 0; left: 0;
+        }
+        .menu_bar{
+            display:flex; align-items: center; justify-content: space-between; margin-top: 10px;
+        }
+        .logo a{
+            font-size: 50px; font-weight: 600; color: whitesmoke; padding-left: 20px; text-decoration: none;
+        }
+        li{
+            list-style:none; display: inline-block;
+        }
+        li a{
+            color: white; font-size: 20px; font-weight: 600; margin-right: 45px; transition: 0.3s ease; text-decoration: none;
+        }
+        li a:hover{
+            color: aqua;
+        }
+        .search{
+            display: flex; align-items: center; margin-right: 30px;
+        }
+        .search form{
+            display: flex; margin: 0;
+        }
+        .search input{
+            padding: 8px; border: 1px solid; border-radius: 5px; margin-right: 10px; font-size: 15px;
+        }
+        .signin{
+            background-color: rgb(128, 51, 0); color: beige; border: 1px; border-radius: 20px; padding: 20px 50px;
+            position: absolute; top: 325px; right: 85px; font-size: large; font-family: Verdana; font-weight: 700;
+        }
+        .signup{
+            background-color: rgb(128, 51, 0); color: beige; border: 1px; border-radius: 20px; padding: 19px 47px;
+            position: absolute; top: 400px; right: 85px; font-size: large; font-family: Verdana; font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav_bar">
+        <div class="menu_bar">
+    <div class="logo"><a href="#">eco-friendly</a></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit">Go</button>
+            </form>
+        </div>
+    </div>
+<h1 style="font-family: sans-serif; font-size: 70px; font-style: italic; text-shadow: 2px 2px 10px black; color:rgb(255, 127, 127); 
+transform: translateX(12%) translateY(300%);">Manage Your Waste...</h1>
+<button class="signin">Sign in</button>
+<button class="signup">Sign up</button>
+</body>
+</html>
